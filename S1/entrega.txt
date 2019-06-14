@@ -1,0 +1,54 @@
+Sesión 1: El intérprete de comandos: shell
+PREGUNTA 1. ¿Qué comandos habéis utilizado para crear los directorios S1..S5?
+#mkdir S1 S2 S3 S4 S5
+
+PREGUNTA 2. ¿Qué comando utilizas para listar el contenido de un directorio? ¿Qué opción hay que añadir para ver los ficheros ocultos?
+#ls y #ls -a
+
+PREGUNTA 3. ¿Qué opción hay que añadir a ls para ver información extendida de los ficheros? ¿Qué campos se ven por defecto con esa opción?
+#ls -l. The following information is displayed for each file: mode, number of links, owner, group, size in bytes, time of last modification (“mmm dd HH:MM”), and the pathname.
+
+PREGUNTA 4. ¿Qué opciones de menú has activado para extender la información que muestra el File Browser?
+He puesto la vista de archivos en modo lista y he activado toda la información que necesitaba con doble click en la barra de herramientas.
+
+PREGUNTA 5. ¿Qué secuencia de comandos has ejecutado para borrar un directorio, comprobar que no está y volver a crearlo?
+#rmdir [nombre_directorio] #ls #mkdir [nombre_directorio]
+
+PREGUNTA 6. ¿Qué diferencia hay entre el comando cat y less?
+Cat saca ficheros con el standard output en la terminal y less tiene la posibilidad de navegar por el texto.
+
+PREGUNTA 7. ¿Para qué sirve la opción -i del comando cp? ¿Cuál es la orden para hacer un alias del comando cp que incluya la opción -i?
+Para preguntar si se desea sobrescribir el archivo con el mismo nombre que ya hay en el directorio de destino.
+
+PREGUNTA 8. ¿Qué hace la opción -i del comando rm? ¿Y la opción -i del mv? Escribe la orden para hacer un alias del comando rm que incluya la opción -i.
+Pregunta antes de cualquier eliminación si se está seguro de ello.
+
+PREGUNTA 9. ¿Qué opciones de chmod has utilizado para dejar solamente los permisos de escritura? ¿Qué resultado ha devuelvo cat al intentar ver el fichero test? ¿Qué opciones de chmod has utilizado para dejar solamente los permisos de lectura? ¿Has conseguido borrarlo?
+#chmod 222 entrega.txt
+cat: entrega.txt: Permiso denegado
+#chmod 444 entrega.text
+Sí, lo he conseguido borrar.
+
+PREGUNTA 10. ¿Cuál es el significado de las variables de entorno PATH, HOME y PWD?
+Apuntan a directorios por defecto. PATH guarda los directorios donde están los comandos de la Shell. Home tiene el directorio por defecto/home/calin, que puede ser útil para varios casos; y PWD contiene el directorio actual del usuario o el último visitado.
+
+PREGUNTA 11. La variable PATH es una lista de directorios, ¿Qué carácter hacer de separador entre un directorio y otro?
+:
+
+PREGUNTA 12. ¿Qué comando has usado para definir y consultar el valor de las nuevas variables que has definido?
+export NOMBRE_VARIABLE=valor
+env | grep NOMBRE_VARIABLE
+
+PREGUNTA 13. ¿Qué versión de la se ha ejecutado? ¿El ls del sistema o el que te acabas de bajar? Ejecuta el comando "which ls" para comprobarlo.
+El falso ls, ./ls.
+
+PREGUNTA 14. ¿El directorio en el que estás, está definid:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:.:.o en la variable PATH? ¿Qué implica esto?
+Sí, está definido. Implica que irá primero a buscar comandos en el directorio . y luego en los otros directorios.
+
+PREGUNTA 15. ¿Qué programa se ha ejecutado? ¿El ls del sistema o el que te acabas de bajar? Ejecuta el comando "which ls" para comprobarlo.
+El ls del sistema. /bin/ls
+
+PREGUNTA 16. ¿Qué diferencia hay entre utilizar  > y >>?
+>>: Redirecciona la salida de datos de un comando a un fichero pero en lugar de borrar
+el contenido del fichero se añade al final de lo que hubiera.
+>: Borra lo que haya escrito en el fichero al que se envían los datos, si es que hay algo escrito.

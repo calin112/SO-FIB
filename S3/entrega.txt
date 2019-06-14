@@ -1,0 +1,150 @@
+Sesi�n 3: Procesos
+PREGUNTA 19. �C�mo puede saber un proceso el pid de sus hijos? �Qu� llamada
+pueden utilizar los procesos para consultar su propio PID?
+Para saber el PID de su hijo se mira el valor que retorna fork. Para saber el
+propio PID se usa getpid.
+
+PREGUNTA 20. �En qu� casos se ejecutar� cualquier c�digo que aparezca justo
+despu�s de la llamada execlp (En cualquier caso/ En caso que el execlp se
+ejecute de forma correcta/ En caso que el execlp falle)?
+En caso que el execlp falle.
+
+PREGUNTA 21. �Qu� directorios hay dentro de /proc/PID_PADRE? �Qu� opci�n de ls
+has usado?
+attr, fd, fdinfo, map_files, net, ns, task. #ls -l
+
+PREGUNTA 22. Apunta el contenido de los ficheros status y cmdline. Compara el
+contenido del fichero environ con el resultado del comando env (f�jate por
+ejemplo en la variable PATH y la variable PWD) �Qu� relaci�n hay? Busca en el
+contenido del fichero status el estado en el que se encuentra el proceso y
+ap�ntalo en el fichero de respuestas.
+status:
+Name:	ps
+State:	Z (zombie)
+Tgid:	17593
+Ngid:	0
+Pid:	17593
+PPid:	17592
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	0
+Groups:	4 24 27 30 46 116 126 1000
+NStgid:	17593
+NSpid:	17593
+NSpgid:	17592
+NSsid:	17562
+Threads:	1
+SigQ:	0/30998
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000000000
+SigCgt:	00000001f3d1fef9
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Speculation_Store_Bypass:	thread vulnerable
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000
+,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000
+000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	1
+nonvoluntary_ctxt_switches:	3
+
+cmdline está vacío.
+
+environ está vacío.
+
+env:
+CLUTTER_IM_MODULE=xim
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_MENU_PREFIX=gnome-
+LANG=es_ES.UTF-8
+DISPLAY=:0
+OLDPWD=/proc
+GNOME_SHELL_SESSION_MODE=ubuntu
+COLORTERM=truecolor
+USERNAME=calin
+XDG_VTNR=2
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+XDG_SESSION_ID=2
+USER=calin
+DESKTOP_SESSION=ubuntu
+QT4_IM_MODULE=xim
+TEXTDOMAINDIR=/usr/share/locale/
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/be1e1faa_5b51_46b5_a25c_4cb2443879f1
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+PWD=/proc/17593
+HOME=/home/calin
+TEXTDOMAIN=im-config
+SSH_AGENT_PID=1260
+QT_ACCESSIBILITY=1
+XDG_SESSION_TYPE=x11
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_SESSION_DESKTOP=ubuntu
+GJS_DEBUG_OUTPUT=stderr
+GTK_MODULES=gail:atk-bridge
+WINDOWPATH=2
+TERM=xterm-256color
+SHELL=/bin/bash
+VTE_VERSION=5202
+QT_IM_MODULE=xim
+XMODIFIERS=@im=ibus
+IM_CONFIG_PHASE=2
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.312
+XDG_SEAT=seat0
+SHLVL=1
+GDMSESSION=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=calin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+XDG_RUNTIME_DIR=/run/user/1000
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:.
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+SESSION_MANAGER=local/calin-TM1604:@/tmp/.ICE-unix/1164,unix/calin-TM1604:/tmp/.ICE-unix/1164
+LESSOPEN=| /usr/bin/lesspipe %s
+GTK_IM_MODULE=ibus
+_=/usr/bin/env
+
+No hay relación porque environ está vacío.
+
+El proceso está en estado Zombie (z).
+
+stat:
+17593 (ps) Z 17592 17592 17562 34817 17592 4227340 188 0 0 0 0 1 0 0 20 0 1 0 25830644 0 0 18446744073709
+551615 0 0 0 0 0 0 0 0 1943142137 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+PREGUNTA 23. �A qu� ficheros "apuntan" los ficheros cwd y exe? �Cu�l crees que
+es el significado de cwd y exe?
+
+cwd apunta a la carpeta en la que está el proceso. cwd: Current Working Directory
+exe apunta al fichero en el que está el proceso. exe: EXEcutable
+
+PREGUNTA 24. �Puedes mostrar el contenido de los ficheros environ, status y
+cmdline del proceso hijo? �En qu� estado se encuentra el hijo?
+El hijo también está en modo Zombie, por lo tanto solo se puede abrir el fichero
+status.
+
+PREGUNTA 25. Comprueba el fichero status de /proc/PID_PADRE /proc/PID_HIJO(s).
+�En qu� estado est� el proceso padre? �En qu� estado est�n los hijos?
+El padre está en modo Running (R) y el hijo también.
+
+PREGUNTA 26. Comprueba el fichero status de /proc/PID_PADRE. ¿En qué estado está
+el proceso padre?
+Está en proceso Sleeping(S).
+
+PREGUNTA 27. �Qu� has hecho para guardar la salida de las ejecuciones de myPS3?
+#myPS3 alumne so1 so2 so3 so4 so5 >> test.txt varias veces.

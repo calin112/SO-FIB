@@ -1,0 +1,50 @@
+Sesión 1: El intérprete de comandos: shell
+PREGUNTA 1. ¿Qué comandos habéis utilizado para crear los directorios S1..S5?
+#mkdir S1 S2 S3 S4 S5
+
+PREGUNTA 2. ¿Qué comando utilizas para listar el contenido de un directorio? ¿Qué opción hay que añadir para ver los ficheros ocultos?
+#ls y #ls -a
+
+PREGUNTA 3. ¿Qué opción hay que añadir a ls para ver información extendida de los ficheros? ¿Qué campos se ven por defecto con esa opción?
+#ls -l. The following information is displayed for each file: mode, number of links, owner, group, size in bytes, time of last modification (“mmm dd HH:MM”), and the pathname.
+
+PREGUNTA 4. ¿Qué opciones de menú has activado para extender la información que muestra el File Browser?
+He puesto la vista de archivos en modo lista y he activado toda la información que necesitaba con doble click en la barra de herramientas.
+
+PREGUNTA 5. ¿Qué secuencia de comandos has ejecutado para borrar un directorio, comprobar que no está y volver a crearlo?
+#rmdir [nombre_directorio] #ls #mkdir [nombre_directorio]
+
+PREGUNTA 6. ¿Qué diferencia hay entre el comando cat y less?
+Cat escribe ficheros con el standard output y less no es standard, sino que se puede subr y bajar por el texto
+
+PREGUNTA 7. ¿Para qué sirve la opción -i del comando cp? ¿Cuál es la orden para hacer un alias del comando cp que incluya la opción -i?
+
+
+PREGUNTA 8. ¿Qué hace la opción -i del comando rm? ¿Y la opción -i del mv? Escribe la orden para hacer un alias del comando rm que incluya la opción -i.
+
+
+PREGUNTA 9. ¿Qué opciones de chmod has utilizado para dejar solamente los permisos de escritura? ¿Qué resultado ha devuelvo cat al intentar ver el fichero test? ¿Qué opciones de chmod has utilizado para dejar solamente los permisos de lectura? ¿Has conseguido borrarlo?
+
+
+PREGUNTA 10. ¿Cuál es el significado de las variables de entorno PATH, HOME y PWD?
+
+
+PREGUNTA 11. La variable PATH es una lista de directorios, ¿Qué carácter hacer de separador entre un directorio y otro?
+
+
+PREGUNTA 12. ¿Qué comando has usado para definir y consultar el valor de las nuevas variables que has definido?
+
+
+PREGUNTA 13. ¿Qué versión de la se ha ejecutado? ¿El ls del sistema o el que te acabas de bajar? Ejecuta el comando "which ls" para comprobarlo.
+
+
+PREGUNTA 14. ¿El directorio en el que estás, está definido en la variable PATH? ¿Qué implica esto?
+
+
+PREGUNTA 15. ¿Qué programa se ha ejecutado? ¿El ls del sistema o el que te acabas de bajar? Ejecuta el comando "which ls" para comprobarlo.
+
+
+PREGUNTA 16. ¿Qué programa ls se ha ejecutado? ¿El ls del sistema o el que te acabas de bajar? Ejecuta el comando "which ls" para comprobarlo.
+
+
+PREGUNTA 17. ¿Qué diferencia hay entre utilizar  > y >>?

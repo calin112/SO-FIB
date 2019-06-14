@@ -1,0 +1,6 @@
+all: listaParametros.c
+	gcc -o listaParametros listaParametros.c
+listaParametros: listaParametros.c
+	gcc -o listaParametros listaParametros.c
+clean:
+	rm listaParametros

@@ -1,0 +1,60 @@
+ejemplo_fork1:
+Soy el proceso 15465
+Soy el proceso 15466
+
+Padre e hijo escriben lo mismo, ya que hacen la misma parte del código.
+
+ejemplo_fork2:
+Antes del fork: Soy el proceso 15471
+PADRE: Soy el proceso 15471
+Los DOS: Soy el proceso 15471
+HIJO: Soy el proceso 15472
+Los DOS: Soy el proceso 15472
+
+Aquí el padre dice su PID antes de crear el hijo, después el padre por separado
+dice su PID a la vez que su hijo también lo dice por separado. Después ambos
+dicen su PID (el mismo trozo de código).
+
+ejemplo_fork3:
+Antes del fork: Soy el proceso 15489
+PADRE: Soy el proceso 15489
+Solo lo ejecuta el padre: Soy el proceso 15489
+HIJO: Soy el proceso 15490
+
+La única diferencia entre ejemplo_fork3 y ejemplo_fork2 es que no escriben ambos
+su PID (el mismo trozo de código).
+
+ejemplo_fork4:
+Antes del fork: Soy el proceso 15493
+PADRE: Soy el proceso 15493
+Solo lo ejecuta el padre: Soy el proceso 15493
+HIJO: Soy el proceso 15494
+HIJO acaba: Soy el proceso 15494
+
+En este caso el hijo no escribe su PID al final del todo, ya que se termina con
+un exit().
+
+ejemplo_fork5:
+Antes del fork: Soy el proceso 15527
+PADRE: Soy el proceso 15527
+HIJO: Soy el proceso 15528
+HIJO:La variable_global vale A y la local a
+PADRE:La variable_global vale A y la local a
+Solo lo ejecuta el padre: Soy el proceso 15527
+
+En este caso hay un funcionamiento similar, primero el padre dice su PID antes
+de crear el hijo, luego ambos escriben por separado su PID y los valores de las
+variables globales y locales, el hijo se termina con un exit y el padre escribe
+su PID al final del programa.
+
+ejemplo_fork7:
+Sí que compila, no hay ningún error.
+
+ejemplo_exec1:
+Este programa crea un hijo para hacer execlp a #ls -l. Solo escribe el PID el
+padre, ya que el hijo se va a ejecutar #ls -l y no vuelve.
+
+ejemplo_exec2:
+En este programa no se hacen hijos. El proceso inicial se envía a ejecutar
+ejemplo_fork1, el cual se executa correctamente y hace lo descrito en ese
+programa. Pero no imprime "Después del exec", ya que no vuelve.

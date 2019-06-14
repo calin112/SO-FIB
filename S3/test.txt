@@ -1,0 +1,1011 @@
+Soy el padre y mi PID es 18228
+Soy un hijo, mi PID es 18229 y el argumento es calin
+Soy el padre y mi PID es 18228
+Soy el padre y mi PID es 18228
+Soy el padre y mi PID es 18228
+Soy el padre y mi PID es 18228
+Soy el padre y mi PID es 18228
+Soy un hijo, mi PID es 18234 y el argumento es calin
+Soy un hijo, mi PID es 18230 y el argumento es calin
+Soy un hijo, mi PID es 18231 y el argumento es calin
+Soy un hijo, mi PID es 18232 y el argumento es calin
+Soy un hijo, mi PID es 18233 y el argumento es calin
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:41 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:46 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:05 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:04 firefox
+17043 tty2     00:26:47 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18228 pts/1    00:00:00 myPS3
+18229 pts/1    00:00:00 ps
+18230 pts/1    00:00:00 ps
+18231 pts/1    00:00:00 ps
+18232 pts/1    00:00:00 ps
+18233 pts/1    00:00:00 ps
+18234 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:41 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:46 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:05 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:04 firefox
+17043 tty2     00:26:47 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18228 pts/1    00:00:00 myPS3
+18229 pts/1    00:00:00 ps
+18230 pts/1    00:00:00 ps
+18231 pts/1    00:00:00 ps
+18232 pts/1    00:00:00 ps
+18233 pts/1    00:00:00 ps
+18234 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:41 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:46 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:05 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:04 firefox
+17043 tty2     00:26:47 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18228 pts/1    00:00:00 myPS3
+18229 pts/1    00:00:00 ps
+18230 pts/1    00:00:00 ps
+18231 pts/1    00:00:00 ps
+18232 pts/1    00:00:00 ps
+18233 pts/1    00:00:00 ps
+18234 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:41 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:46 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:05 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:04 firefox
+17043 tty2     00:26:47 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18228 pts/1    00:00:00 myPS3
+18229 pts/1    00:00:00 ps
+18230 pts/1    00:00:00 ps
+18231 pts/1    00:00:00 ps
+18232 pts/1    00:00:00 ps
+18233 pts/1    00:00:00 ps
+18234 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:41 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:46 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:05 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:04 firefox
+17043 tty2     00:26:47 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18228 pts/1    00:00:00 myPS3
+18230 pts/1    00:00:00 ps
+18231 pts/1    00:00:00 ps
+18232 pts/1    00:00:00 ps
+18233 pts/1    00:00:00 ps
+18234 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:41 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:46 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:05 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:04 firefox
+17043 tty2     00:26:47 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18228 pts/1    00:00:00 myPS3
+18232 pts/1    00:00:00 ps
+Soy el padre y mi PID es 18238
+Soy un hijo, mi PID es 18239 y el argumento es calin
+Soy el padre y mi PID es 18238
+Soy un hijo, mi PID es 18240 y el argumento es calin
+Soy el padre y mi PID es 18238
+Soy un hijo, mi PID es 18241 y el argumento es calin
+Soy el padre y mi PID es 18238
+Soy el padre y mi PID es 18238
+Soy el padre y mi PID es 18238
+Soy un hijo, mi PID es 18242 y el argumento es calin
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:42 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:47 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:06 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:05 firefox
+17043 tty2     00:26:51 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18238 pts/1    00:00:00 myPS3
+18239 pts/1    00:00:00 ps
+18240 pts/1    00:00:00 ps
+18241 pts/1    00:00:00 ps
+18242 pts/1    00:00:00 ps
+18243 pts/1    00:00:00 myPS3
+18244 pts/1    00:00:00 myPS3
+Soy un hijo, mi PID es 18244 y el argumento es calin
+Soy un hijo, mi PID es 18243 y el argumento es calin
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:42 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:47 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:06 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:05 firefox
+17043 tty2     00:26:51 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18238 pts/1    00:00:00 myPS3
+18239 pts/1    00:00:00 ps
+18240 pts/1    00:00:00 ps
+18241 pts/1    00:00:00 ps
+18243 pts/1    00:00:00 ps
+18244 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:42 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:47 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:06 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:05 firefox
+17043 tty2     00:26:51 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18238 pts/1    00:00:00 myPS3
+18239 pts/1    00:00:00 ps
+18240 pts/1    00:00:00 ps
+18243 pts/1    00:00:00 ps
+18244 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:42 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:47 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:06 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:05 firefox
+17043 tty2     00:26:51 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18238 pts/1    00:00:00 myPS3
+18239 pts/1    00:00:00 ps
+18243 pts/1    00:00:00 ps
+18244 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:42 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:47 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:06 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:05 firefox
+17043 tty2     00:26:51 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18238 pts/1    00:00:00 myPS3
+18243 pts/1    00:00:00 ps
+18244 pts/1    00:00:00 ps
+  PID TTY          TIME CMD
+ 1116 ?        00:00:00 systemd
+ 1117 ?        00:00:00 (sd-pam)
+ 1130 ?        00:00:00 gnome-keyring-d
+ 1134 tty2     00:00:00 gdm-x-session
+ 1136 tty2     00:27:05 Xorg
+ 1161 ?        00:00:03 dbus-daemon
+ 1164 tty2     00:00:00 gnome-session-b
+ 1260 ?        00:00:00 ssh-agent
+ 1262 ?        00:00:00 at-spi-bus-laun
+ 1267 ?        00:00:02 dbus-daemon
+ 1269 ?        00:00:13 at-spi2-registr
+ 1286 tty2     00:40:42 gnome-shell
+ 1292 ?        00:00:00 gvfsd
+ 1297 ?        00:00:00 gvfsd-fuse
+ 1308 ?        00:20:47 pulseaudio
+ 1323 tty2     00:03:01 ibus-daemon
+ 1327 tty2     00:00:00 ibus-dconf
+ 1329 tty2     00:00:00 ibus-x11
+ 1331 ?        00:00:00 ibus-portal
+ 1342 ?        00:00:00 gnome-shell-cal
+ 1346 ?        00:00:00 evolution-sourc
+ 1354 ?        00:00:00 goa-daemon
+ 1365 ?        00:00:00 goa-identity-se
+ 1373 ?        00:00:00 gvfs-udisks2-vo
+ 1377 ?        00:00:00 gvfs-gphoto2-vo
+ 1381 ?        00:00:00 gvfs-goa-volume
+ 1385 ?        00:00:00 gvfs-mtp-volume
+ 1389 ?        00:00:00 gvfs-afc-volume
+ 1394 tty2     00:00:02 gsd-power
+ 1395 tty2     00:00:00 gsd-print-notif
+ 1398 tty2     00:00:00 gsd-rfkill
+ 1400 tty2     00:00:00 gsd-screensaver
+ 1406 tty2     00:00:08 gsd-sharing
+ 1409 tty2     00:00:00 gsd-smartcard
+ 1411 tty2     00:00:00 gsd-sound
+ 1420 tty2     00:00:01 gsd-xsettings
+ 1428 tty2     00:00:01 gsd-wacom
+ 1430 tty2     00:00:00 gsd-a11y-settin
+ 1434 tty2     00:00:01 gsd-clipboard
+ 1437 tty2     00:00:08 gsd-color
+ 1439 tty2     00:00:00 gsd-datetime
+ 1443 tty2     00:00:02 gsd-housekeepin
+ 1444 tty2     00:00:01 gsd-keyboard
+ 1450 tty2     00:00:02 gsd-media-keys
+ 1455 tty2     00:00:00 gsd-mouse
+ 1494 tty2     00:00:14 gnome-software
+ 1500 tty2     00:00:00 gsd-disk-utilit
+ 1501 tty2     00:00:07 nautilus-deskto
+ 1510 tty2     00:00:00 gsd-printer
+ 1518 ?        00:00:00 gvfsd-trash
+ 1525 ?        00:00:00 evolution-calen
+ 1547 ?        00:00:00 evolution-calen
+ 1549 tty2     00:00:53 ibus-engine-sim
+ 1556 ?        00:00:00 dconf-service
+ 1567 ?        00:00:00 evolution-addre
+ 1578 ?        00:00:00 evolution-addre
+ 2084 tty2     00:00:02 update-notifier
+ 2122 tty2     00:00:00 deja-dup-monito
+ 2387 ?        00:00:00 gvfsd-metadata
+ 5746 ?        00:00:00 gconfd-2
+ 5983 ?        00:00:00 gvfsd-network
+ 6007 ?        00:00:00 gvfsd-dnssd
+11971 ?        00:00:00 zeitgeist-daemo
+11978 ?        00:00:00 zeitgeist-fts
+16368 tty2     00:03:42 atom
+16371 tty2     00:00:00 atom
+16399 tty2     00:02:22 atom
+16410 tty2     00:06:06 atom
+16505 tty2     00:00:00 atom
+16893 ?        00:00:14 gnome-terminal-
+16989 tty2     00:06:05 firefox
+17043 tty2     00:26:51 Web Content
+17148 tty2     00:00:07 Web Content
+17272 ?        00:00:02 nautilus
+17414 tty2     00:00:00 Web Content
+17562 pts/1    00:00:00 bash
+18238 pts/1    00:00:00 myPS3
+18243 pts/1    00:00:00 ps
