@@ -1,0 +1,95 @@
+1. nm
+U atoi@@GLIBC_2.2.5
+0000000000201010 B __bss_start
+0000000000201010 b completed.7696
+               w __cxa_finalize@@GLIBC_2.2.5
+0000000000201000 D __data_start
+0000000000201000 W data_start
+0000000000000690 t deregister_tm_clones
+0000000000000720 t __do_global_dtors_aux
+0000000000200da0 t __do_global_dtors_aux_fini_array_entry
+0000000000201008 D __dso_handle
+0000000000200da8 d _DYNAMIC
+0000000000201010 D _edata
+0000000000201018 B _end
+               U exit@@GLIBC_2.2.5
+0000000000000914 T _fini
+0000000000000760 t frame_dummy
+0000000000200d98 t __frame_dummy_init_array_entry
+0000000000000abc r __FRAME_END__
+0000000000200f98 d _GLOBAL_OFFSET_TABLE_
+               w __gmon_start__
+0000000000000950 r __GNU_EH_FRAME_HDR
+00000000000005d0 T _init
+0000000000200da0 t __init_array_end
+0000000000200d98 t __init_array_start
+0000000000000920 R _IO_stdin_used
+               w _ITM_deregisterTMCloneTable
+               w _ITM_registerTMCloneTable
+0000000000201014 B j
+0000000000000910 T __libc_csu_fini
+00000000000008a0 T __libc_csu_init
+               U __libc_start_main@@GLIBC_2.2.5
+0000000000000789 T main
+00000000000006d0 t register_tm_clones
+               U sprintf@@GLIBC_2.2.5
+0000000000000660 T _start
+               U strlen@@GLIBC_2.2.5
+000000000000076a T suma
+0000000000201010 D __TMC_END__
+               U write@@GLIBC_2.2.5
+
+               "A" The symbol's value is absolute, and will not be changed by
+                  further linking.
+
+              "B"
+              "b" The symbol is in the BSS data section.  This section typically
+                  contains zero-initialized or uninitialized data, although the
+                    exact behavior is system dependent.
+
+              "C" The symbol is common.  Common symbols are uninitialized data.
+                  When linking, multiple common symbols may appear with the same
+                  name.  If the symbol is defined anywhere, the common symbols
+                  are treated as undefined references.
+
+              "D"
+              "d" The symbol is in the initialized data section.
+
+              "G"
+              "g" The symbol is in an initialized data section for small objects.
+                  Some object file formats permit more efficient access to small
+                  data objects, such as a global int variable as opposed to a
+                  large global array.
+
+               "i" For PE format files this indicates that the symbol is in a
+                  section specific to the implementation of DLLs.  For ELF format
+                  files this indicates that the symbol is an indirect function.
+                  This is a GNU extension to the standard set of ELF symbol
+                  types.  It indicates a symbol which if referenced by a
+                  relocation does not evaluate to its address, but instead must
+                  be invoked at runtime.  The runtime execution will then return
+                  the value to be used in the relocation.
+
+              "I" The symbol is an indirect reference to another symbol.
+
+              "N" The symbol is a debugging symbol.
+
+              "p" The symbols is in a stack unwind section.
+
+              La j sí que puede ser encontrada, ya que es variable global, en
+              este caso .bss, ya que no tiene valor. Por otro lado, i no se puede
+              encontrar ya que es variable local.
+              La j está almacenada en datos, y la j está almacenada en el stack.
+              La función suma está asignada en 000000000000076a.
+
+2.
+  #gcc -static -o mem1_previo mem1_previo.c
+
+3.
+  mem2_previo_v2: 55bdfaa6a000-55bdfaa6b000 rw-p 00000000 00:00 0         [heap]
+  mem2_previo:    55e9aae25000-55e9aae4d000 rw-p 00000000 00:00 0         [heap]
+  Si hacemos los cálculos adientes, mem2_previo_v2 ha reservado 4096 bytes,
+  mientras que mem2_previo ha reservado 163840 bytes, una diferencia considerable.
+
+4.
+  Sale error de violación de segmento (SIGSEGV).

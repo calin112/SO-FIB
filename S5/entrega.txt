@@ -1,0 +1,117 @@
+Sesión 5: Gestión de Memoria
+
+PREGUNTA 33. ¿Qué variables aparecen en la salida del nm de mem1_dynamic? ¿Qué
+dirección ocupa cada una? Indica a que región pertenece cada variable según la
+salida del nm y el tipo de variable (local o global).
+  Aparece globalArray y las funciones del programa.
+  globalArray ocupa la dirección 0000000000201040. Al ser de tipo B, es una
+  variable global sin asignar valor, por lo tanto está dentro de la región de
+  data.
+
+PREGUNTA 34. Para los dos ejecutables, compilado estático y dinámico, observa
+su tamaño, la salida de los comandos nm y objdump ¿En qué se diferencian los
+dos ejecutables?
+  El tamaño de mem1_dynamic es de 8552 bytes, mientras que el de mem1_static es
+  de 844888 bytes. En cuanto a nm, hay muchos más objetos en mem1_static que en
+  mem1_dynamic. Con #objdump -d, podemos ver que mem1_dynamic tiene muchísimo
+  menos código assembler que mem1_static.
+
+PREGUNTA 35. Observa el contenido del fichero maps del /proc para cada proceso
+y apunta para cada región la dirección inicial, dirección final y etiqueta
+asociada. ¿Qué diferencia hay entre el maps de cada proceso?
+  mem1_dynamic:
+    55d53fb3a000-55d53fb3b000 r-xp 00000000 103:05 1190786                   /home/calin/SO/S5/mem1_dynamic
+    55d53fd3a000-55d53fd3b000 r--p 00000000 103:05 1190786                   /home/calin/SO/S5/mem1_dynamic
+    55d53fd3b000-55d53fd3c000 rw-p 00001000 103:05 1190786                   /home/calin/SO/S5/mem1_dynamic
+    55d53fd3c000-55d53fd3d000 rw-p 00000000 00:00 0
+    55d53ff2a000-55d53ff4b000 rw-p 00000000 00:00 0                          [heap]
+    7f57d13aa000-7f57d1591000 r-xp 00000000 103:05 267347                    /lib/x86_64-linux-gnu/libc-2.27.so
+    7f57d1591000-7f57d1791000 ---p 001e7000 103:05 267347                    /lib/x86_64-linux-gnu/libc-2.27.so
+    7f57d1791000-7f57d1795000 r--p 001e7000 103:05 267347                    /lib/x86_64-linux-gnu/libc-2.27.so
+    7f57d1795000-7f57d1797000 rw-p 001eb000 103:05 267347                    /lib/x86_64-linux-gnu/libc-2.27.so
+    7f57d1797000-7f57d179b000 rw-p 00000000 00:00 0
+    7f57d179b000-7f57d17c2000 r-xp 00000000 103:05 267319                    /lib/x86_64-linux-gnu/ld-2.27.so
+    7f57d19ab000-7f57d19ad000 rw-p 00000000 00:00 0
+    7f57d19c2000-7f57d19c3000 r--p 00027000 103:05 267319                    /lib/x86_64-linux-gnu/ld-2.27.so
+    7f57d19c3000-7f57d19c4000 rw-p 00028000 103:05 267319                    /lib/x86_64-linux-gnu/ld-2.27.so
+    7f57d19c4000-7f57d19c5000 rw-p 00000000 00:00 0
+    7ffde735e000-7ffde737f000 rw-p 00000000 00:00 0                          [stack]
+    55d53ff2a000-55d53ff4b000 rw-p 00000000 00:00 0                          [heap]
+    7ffde73e4000-7ffde73e7000 r--p 00000000 00:00 0                          [vvar]
+    7ffde73e7000-7ffde73e9000 r-xp 00000000 00:00 0                          [vdso]
+    ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+  mem1_static:
+    00400000-004b6000 r-xp 00000000 103:05 1198995                           /home/calin/SO/S5/mem1_static
+    006b6000-006bc000 rw-p 000b6000 103:05 1198995                           /home/calin/SO/S5/mem1_static
+    006bc000-006be000 rw-p 00000000 00:00 0
+    7ffed2a29000-7ffed2a4a000 rw-p 00000000 00:00 0                          [stack]
+    00da6000-00dc9000 rw-p 00000000 00:00 0                                  [heap]
+    7ffed2bf4000-7ffed2bf7000 r--p 00000000 00:00 0                          [vvar]
+    7ffed2bf7000-7ffed2bf9000 r-xp 00000000 00:00 0                          [vdso]
+    ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+  El maps de mem1_dynamic es bastante más grande, ya que apunta a muchas más
+  librerías que mem1_static, que copia directamente todas las librerías que
+  necesita dentro de su código.
+
+PREGUNTA 36. ¿A qué región de las descritas en el maps pertenece cada variable
+y cada zona reservada con malloc? Apunta la dirección inicial, dirección final
+y el nombre de la región.
+  La variable global globalArray debería estar en vvar. Las variables locales
+  deberían estar en stack, y el código debería estar en vsyscall.
+  La zona reservada con malloc está en el heap.
+
+PREGUNTA 37. Para cada ejecución apunta el número de mallocs hechos y la
+dirección inicial y final del heap que muestra el fichero maps del /proc.
+¿Cambia el tamaño según el parámetro de entrada? ¿Por qué?
+  3:
+  55d4cdb1a000-55d4cdb3b000 rw-p 00000000 00:00 0                          [heap]
+  El tamaño de este heap es de 135168 bytes.
+
+  5:
+  55cd3b23d000-55cd3b25e000 rw-p 00000000 00:00 0                          [heap]
+  El tamaño de este heap es de 135168 bytes.
+
+  100:
+  56235884b000-5623588cf000 rw-p 00000000 00:00 0                          [heap]
+  El tamaño de este heap es de 540672 bytes.
+
+  Que 3 y 5 sean iguales significa que con 3 no se llegó a llenar la región del
+  malloc, y posiblemente con 5 tampoco.
+  La diferencia de tamaño en 100 significa que se han llenado varias regiones de
+  malloc, por lo tanto se ha aumentado su tamaño.
+
+
+PREGUNTA 38. ¿Cuál es el tamaño del heap? ¿Cambia el tamaño según el resultado
+de la pregunta anterior? ¿Por qué?
+  55740b0da000-55740b0fb000 rw-p 00000000 00:00 0                          [heap]
+  El tamaño es de 135168, lo que significa que nunca se llega a llenar la región
+  de memoria.
+
+
+PREGUNTA 39. Para cada ejecución apunta el número de mallocs hechos y la
+dirección inicial y final del heap que se muestra en el maps del /proc. ¿Cambia
+el tamaño del heap respecto al observado en la pregunta 6? ¿Por qué?
+  3:
+    55e0275db000-55e0275de000 rw-p 00000000 00:00 0                          [heap]
+    El tamaño en este caso es de 12288 bytes.
+  5:
+    55fc391cc000-55fc391d1000 rw-p 00000000 00:00 0                          [heap]
+    El tamaño en este caso es de 20480 bytes.
+
+  100:
+    556d08042000-556d080a6000 rw-p 00000000 00:00 0                          [heap]
+    El tamaño en este caso es de 409600 bytes.
+
+    El tamaño difiere ya que sbrk libera exactamente lo que se le pida, no como
+    en el caso de malloc.
+
+PREGUNTA 40. ¿Qué error contiene el código del programa? ¿Por qué el programa
+no falla en las primeras iteraciones? Propón una alternativa a este código que
+evite que se genere la excepción, detectando, antes de que pase, que vamos a
+hacer un acceso fuera del espacio de direcciones.
+
+  La memoria asignada al programa se llena, y al llenarse ya no se puede liberar
+  más memoria, por lo tanto da error. Habría que hacer free en caso de malloc y
+  sbrk inverso en el caso de sbrk.
