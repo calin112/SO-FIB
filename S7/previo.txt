@@ -1,0 +1,36 @@
+
+1. ¿Qué valor devuelve la llamada read después de pulsar el ^D?
+    Ha devuelto 0, ya que con Ctrl + D lo que hacemos es enviarle a read un texto
+    vacío, lo cual read interpreta como "fin del documento".
+
+2. Apunta el comando utilizado en el fichero “previo.txt”.
+    ./es1 >> test
+
+3. ¿Cuál es el resultado? ¿Qué operación realiza el comando ‘grep es’?
+    Se imprimen las líneas del comando ls -a que contienen "es" en ellas. 'grep es'
+    busca en el texto que le ha enviado #ls -l cualquier 'es' que encuentre, y
+    escribe en la salida estándar la línea entera donde se ha encontrado.
+
+4. Anota el comando en el fichero “previo.txt”.
+    #ps -e | grep bash
+
+5. ¿Cuántos bytes se escriben en cada caso? ¿Qué diferencias observas en lo que
+    aparece en pantalla?
+      En el primero dice que se escriben 4 (sizeof(int)) pero realmente se
+      escriben 2, ya que es lo que ocupa el entero en cuestión, que convertido a
+      chars con representación ASCII tiene ese aspecto.
+      En el segundo se escriben 5, ya que son los 5 chars con sus respectivos
+      símbolos ASCII.
+
+6a. ¿Qué función sirve para implementar el read específico del dispositivo gestionado por cada device driver?
+      La función read_driver_1 para el driver 1 y la función read_driver_2 para el driver 2.
+
+6b. ¿Qué son el major y el minor? ¿Para qué sirven? ¿Qué major y minor utilizan los dos device drivers?
+      El major y el minor son identificadores del driver. NORMALMENTE, el major indica el tipo de driver y el minor indica el driver en si.
+      DRIVER 1:
+        MAJOR: 249
+        MINOR: 0
+
+      DRIVER 2:
+        MAJOR: 250
+      MINOR: 0  

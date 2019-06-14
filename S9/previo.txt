@@ -1,0 +1,108 @@
+¿Cómo podéis saber los sistemas de ficheros montados en vuestro sistema y de qué tipo son? Indica, además, en qué directorios están montados.
+Con el comando #df -T.
+
+S.ficheros     Tipo     bloques de 1K   Usados Disponibles Uso% Montado en
+udev           devtmpfs       4007708        0     4007708   0% /dev
+tmpfs          tmpfs           807596     2056      805540   1% /run
+/dev/nvme0n1p5 ext4          30106488 13052480    15501624  46% /
+tmpfs          tmpfs          4037968    72900     3965068   2% /dev/shm
+tmpfs          tmpfs             5120        4        5116   1% /run/lock
+tmpfs          tmpfs          4037968        0     4037968   0% /sys/fs/cgroup
+/dev/loop0     squashfs         13312    13312           0 100% /snap/gnome-characters/139
+/dev/loop1     squashfs         90368    90368           0 100% /snap/core/5897
+/dev/loop2     squashfs         14848    14848           0 100% /snap/gnome-logs/43
+/dev/loop3     squashfs        144128   144128           0 100% /snap/gnome-3-26-1604/74
+/dev/loop4     squashfs         43264    43264           0 100% /snap/gtk-common-themes/701
+/dev/loop5     squashfs          3840     3840           0 100% /snap/gnome-system-monitor/57
+/dev/loop6     squashfs        177536   177536           0 100% /snap/spotify/26
+/dev/loop7     squashfs          3840     3840           0 100% /snap/gnome-system-monitor/51
+/dev/loop8     squashfs         13312    13312           0 100% /snap/gnome-characters/124
+/dev/loop9     squashfs          2304     2304           0 100% /snap/gnome-calculator/238
+/dev/loop10    squashfs         89984    89984           0 100% /snap/core/5742
+/dev/loop11    squashfs        144384   144384           0 100% /snap/gnome-3-26-1604/70
+/dev/loop12    squashfs         35456    35456           0 100% /snap/gtk-common-themes/818
+/dev/loop13    squashfs         14848    14848           0 100% /snap/gnome-logs/37
+/dev/loop14    squashfs         35072    35072           0 100% /snap/gtk-common-themes/808
+/dev/loop15    squashfs        177536   177536           0 100% /snap/spotify/24
+/dev/loop16    squashfs         91648    91648           0 100% /snap/core/6034
+/dev/loop17    squashfs          2304     2304           0 100% /snap/gnome-calculator/260
+/dev/loop19    squashfs          2432     2432           0 100% /snap/gnome-calculator/180
+/dev/loop18    squashfs         14976    14976           0 100% /snap/gnome-logs/45
+/dev/loop21    squashfs        177792   177792           0 100% /snap/spotify/28
+/dev/loop20    squashfs         13312    13312           0 100% /snap/gnome-characters/103
+/dev/nvme0n1p2 vfat             98304    30570       67734  32% /boot/efi
+tmpfs          tmpfs           807592       16      807576   1% /run/user/121
+tmpfs          tmpfs           807592      100      807492   1% /run/user/1000
+
+
+¿Cómo se puede saber el número de inodos libres de un sistema de ficheros? ¿Qué comando has utilizado y con qué opciones?
+Con el comando #df -i.
+
+
+¿Cómo  se  puede  saber  el  espacio  libre  de  un  sistema  de  ficheros?  ¿Qué comando has utilizado y con qué opciones?
+Con el comando #df -h.
+
+
+¿De qué tipo es cada uno de links creados, sl_pr y hl_pr?
+  sl_pr es un softlink, o enlace simbólico, y hr_pr es un hardlink.
+
+
+¿Cuál es el número de links que tiene cada fichero? ¿Qué significa ese valor?
+  pr.txt y hl_pr tienen dos, ya que el fichero se puede acceder desde dos sitios.
+  sl_pr solo tiene uno, ya que es él mismo. Si se creara un hard link de sl_pr entonces tendría dos links.
+
+
+¿Qué inodo tiene cada fichero?
+  pr.txt: 1441359
+  hl_pr: 1441359
+  sl_pr: 1441360
+
+
+¿Alguno de los links, sl_pr o hl_pr, tiene el mismo inodo que pr.txt? ¿Si es así, qué significa eso?
+  Sí, hl_pr, ya que es un link directo. sl_pr necesita guardar los datos del fichero al que linkea.
+
+
+¿Observas  alguna  diferencia  en  el  resultado  de  alguno  de  los comandos cuando se ejecutan sobre sl_pr y cuando se ejecutan sobre hl_pr? Si hay alguna diferencia, explica el motivo.
+
+cat:
+  hl_pr: esto es una prueba
+  sl_pr: esto es una prueba
+
+namei:
+  hl_pr:
+    f: hl_pr
+    - hl_pr
+
+  sl_pr:
+    f: sl_pr
+    l sl_pr -> pr.txt
+   - pr.txt
+  Es diferente porque sl_pr es un enlace simbólico y hl_pr un fichero estándar.
+
+readlink:
+  hl_pr: [Nada]
+  sl_pr: pr.txt
+  Es diferente porque sl_pr es un enlace simbólico y hl_pr un fichero estándar.
+
+Eliminando pr.txt:
+
+#cat sl_pr
+            cat: sl_pr: No existe el archivo o el directorio
+            #cat hl_pr
+            Esto es una prueba
+
+#namei sl_pr
+            f: sl_pr
+             l sl_pr -> pr.txt
+            pr.txt - No such file or directory
+
+#namei hl_pr
+            f: hl_pr
+             - hl_pr
+
+#readlink sl_pr
+            pr.txt
+            
+#readlink hl_pr
+
+Las diferencias estan en que el sl_pr sigue apuntando al pr.txt, pero cuando intenta acceder no existe.

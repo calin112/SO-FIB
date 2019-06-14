@@ -1,0 +1,31 @@
+1.
+  #mknod mypipe p
+  #cat > mypipe
+  #cat < mypipe (desde otro terminal)
+
+2.
+  No se puede porque la pipe sin nombre no tiene modo de identificarse
+  (no tiene nombre), por lo tanto solo se puede hacer con una pipe con nombre.
+  Si está en el mismo terminal sí que se puede.
+
+3.
+  dup2(4,0);
+  close(4);
+
+4.
+  createSocket:
+    Resumidamente, crea el socket con el cual el programa escuchará.
+    Se crea con la función socket, la cual usa los siguientes valores:
+      - AF_UNIX: para comunicarse localmente
+      - SOCK_STREAM: para hacer "byte streams" basados en la conexión y que se
+        comuniquen por ambos lados (escuchar y enviar).
+      - protocolo = 0: utiliza el protocolo estándard de SOCK_STREAM,
+        seguramente use el protocolo TCP
+    Después se enlaza con bind: se le da un número y se le asigna la dirección
+    y el tamaño.
+    Finalmente, se le aplica la función listen, que lo convierte en socket pasivo
+    y se le asigna un número máximo de conexiones pendientes PENDINGCONNECTIONS
+    = 10.
+  serverConnection:
+    Resumidamente, hace que el socket que se recibe se ponga a aceptar con la
+    función accept.
