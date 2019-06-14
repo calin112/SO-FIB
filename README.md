@@ -1,4 +1,4 @@
 # SO-FIB
 Ficheros de las sesiones solucionadas del laboratorio de SO de la FIB
 
-No faltes a clase de lab.
+No te van a servir si no sabes de qué va la sesión, así que no faltes a clase de lab.
