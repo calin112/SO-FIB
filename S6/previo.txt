@@ -1,0 +1,16 @@
+1.  Estan en proc/[pid]/stat, ellos serían:
+      cminflt  %lu
+        The number of minor faults that the process's waited-for children have made.
+      cmajflt  %lu
+        The number of major faults that the process's waited-for children have made.
+
+2.  #vmstat 1
+    Swap-in: si
+    Swap-out: so
+
+3.
+    10: real	0m0,003s
+    20: real	0m0,004s
+    30: real	0m0,052s
+    40: real	0m0,942s
+    50: real	1m55,163s
