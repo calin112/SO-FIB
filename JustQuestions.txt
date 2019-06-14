@@ -1,0 +1,113 @@
+SESSION 1
+
+QUESTION 1. What commands have you used to create the directories S1..S5?
+QUESTION 2. What commands do you use to list the contents of a directory? What option do you have to add to display the hidden files?
+QUESTION 3. What option do you have to add to ls to see the extended information of the files? 
+QUESTION 4. Which options of the menu have you activated to extend the information displayed by the File Browser?
+QUESTION 5. Which command sequence have you executed to delete a directory, check that it's not there and create it again?
+QUESTION 6. What difference exists between cat and less?
+QUESTION 7. What's the function of the -i option in the cp command? Which is the command to do an alias for the cp command that includes the -i option?
+QUESTION 8. What does the -i option of the rm command? And the -i option of mv? Write the command to do an alias of the rm command that includes the -i option.
+QUESTION 9. What options of the chmod have you used to leave only write permissions? What was the result of cat when trying to see the test file? What options of chmod have you used to leave only the write permissions? Have you succeeded in deleting it?
+QUESTION 10. What's the meaning of the environment variables PATH, HOME and PWD? 
+QUESTION 11. The PATH variable is a list of directories, what characters acts as separator between directories? 
+QUESTION 12. Which command have you used to define and check the values of the new variables you have defined? 
+QUESTION 13. Which version of ls has been executed? The system ls or the one you have just downloaded? Execute the "which ls" command to check it.
+QUESTION 14. Is the directory where you are in defined in the PATH variable? Which are the implications of it?
+QUESTION 15. Which program has been executed? The system ls or the one you just downloaded? Execute the "which ls" command to check it.
+QUESTION 16.  Which program has been executed? The system ls or the one you just downloaded? Execute the "which ls" command to check it.
+QUESTION 17. What's the difference between using > and >>?
+
+
+Session 2: The C language
+
+QUESTION 18. Which options did you need to add to the gcc to generate the object file? Which option did you need to add to the gcc for the compiler to find the my_functions.h file?
+
+Session 3: Processes
+
+QUESTION 19. How can a process know the pid of its children? What system calls can the processes use to consult their own PID?
+QUESTION 20. In which cases will any code that appears after the execlp system call be executed (In any case /In case execlp is executed correctly / In case execlp fails)?
+QUESTION 21. Which directories are inside the /proc/PID_PARENT? Which ls option have you used?
+QUESTION 22. For the parent process, write down the content of the files status and cmdline. Compare the content of the file environ with the result of the command env (for example the variables PATH and PWD). What's the relation between them? Search in the contents of the status file the state in which the process is and write it down in the answers file. Also write the CPU time that it has consumed in user mode (look it in the stat file of the process).
+QUESTION 23. In the case of the child process, which files do the files cwd and exe point to? What do you think is the meaning of cwd and exe?
+QUESTION 24. In the case of the child process, can you show the contents of the environ, status and cmdline files of the child process? What is its status?
+QUESTION 26. In the case of the child process, can you show the contents of the environ, status and cmdline files of the child process? What is its status? What are the differences with the previous version? What is the reason of these differences?
+QUESTION 27. Check the status file in /proc/PID_PARENT. In which status is the parent process? 
+QUESTION 28. What have you done to save the output of the executions of myPS3?[Y1]
+
+
+Session 4: Process communication 
+
+QUESTION 29. What happens to the parent now when the SIGALRM event arrives?
+QUESTION 30. What happens with the signal treatment table if we do an execlp (and change the code)? Does the reprogramming of signals hold? Is it placed by default? 
+QUESTION 31. The program ejemplo_waitpid, is it sequential or concurrent?
+QUESTION 32.  Can the user so1 send signals to the process launched by the user alumne? What error is displayed?
+QUESTION 33. Which message shows the Shell when the same signal is sent for second time?
+QUESTION 34.  Explain what causes the result in the executions of signal_perdido with 1 as a parameter and 0 as a parameter
+
+Session 5: Memory management
+
+QUESTION 35. Which variables appear on the output of nm on mem1_dynamic? Which direction occupies each of them? Indicate to which region each QUESTION 36. For both executables, static and dynamic compiling, observe their size and the output of the commands nm and objdump. What are the differences between the files?
+QUESTION 37. Observe the contents of the maps file of the /proc of each process and write down for each region the initial address, the final address and the associated tag. What's the difference between the maps of each process?
+QUESTION 38. To which region of the ones described in the maps belongs each variable and each zone allocated with malloc? Write down the initial address, the final address and the name of the region.
+QUESTION 39. For each execution write down the number of mallocs done and the initial and final address of the heap shown by the maps file of the /proc. Does the size change depending on the input parameter? Why?
+QUESTION 40. What is the size of the heap in this case? Explain the results.
+QUESTION 41. For each execution write down the number of mallocs done and the initial and final address of the heap shown in the maps of the /proc. Does the size of the heap change regarding the observations of question 6? Why?
+QUESTION 42. What is the error of the program? Why the program doesn't fail in the first iterations? Propose an alternative to this code that avoids the generation of the exception, detecting, before it happens, that we are going to make an access outside the address space.
+
+Session 6: Performance Analysis
+
+QUESTION 43. Write down in the entrega.txt file the number of processing units (cores or CPUS) that your machine has. 
+QUESTION 44. Write down the average, maximum and minimum time for an instance in Table 1 of the spreadsheet.
+QUESTION 45. Write down for each experiment the average, maximum and minimum time in Table 1 of the spread sheet.
+QUESTION 46. How is the execution time of the process affected?
+QUESTION 47. How much %CPU has been assigned to each process? 
+QUESTION 48. The allocation has been by process or by user? Do you think that is possible that 1 user saturates the system with this criterion?
+QUESTION 49. How is the FIB execution time affected with respect to the number of instances of BAJA_PRIO_FIB?
+QUESTION 50. Which %CPU has been assigned to each process with 2 and 5 instances of BAJA_PRIO_FIB?
+QUESTION 51. How much physical memory has the system (F) in bytes?
+QUESTION 52.  Fill the following table and add it to the RendimientoProcesos.ods file. In execution 2, why do you think the access time changes depending on the iteration number? 
+QUESTION 53. Fill the following table and add it to the RendimientoProcesos.ods file(sum all the page faults of all the processes of the same execution):
+
+
+Session 7:Input/Output management
+
+QUESTION 54. Write down in the "entrega.txt" file the commands that you have used in each section. Also hand in the file "es1_v2.c". What differences do you observe in the two executions of strace? How many read system calls each version executes? What influence can they have on the performance of both versions of the code? Why?
+QUESTION 55. Explain the differences observed in the standard output of the program when the first parameter is 0 or 1. What do you think is the use of this parameter?
+QUESTION 56. Explain the reason of the observed results depending on the format of the input file.
+QUESTION 57. Explain the observed differences between the output of programs es3 and es4. Why the output is intelligible for one of the files and not for the other?
+QUESTION 58. Write the values that the showCpuTime.sh script has showed for each one of the processes and comment the differences between them regarding CPU consumption. Why are they caused? Identify the lines of code that mark the difference between them.
+QUESTION 59. Write down in the file entrega.txt the results of both executions. Hand in the code programmed in the file es6_v2.
+QUESTION 60. What would happen if we wouldn't include siginterrupt to the code? Repeat the previous executions eliminating the siginterrupt and write down the result in the file entrega.txt. 
+QUESTION 61. Was already in use the major specified in the code? If it was, what driver was using it?
+QUESTION 62. Write down the output line of lsmod corresponding to myDriver1 and myDriver2. 
+QUESTION 63. Write down the command line you have used to create the device.
+QUESTION 64. Write down in the file "entrega.txt" the output of the execution and explain the obtained result.
+QUESTION 65. Write down the output of the execution. Explain the reason of the differences observed comparing the output of this exercise with the output of section 5.
+
+Session 8:Input/Output management
+
+QUESTION 66. What's the content of the file after the execution? Does it contain the output of both the parent and child, or only of the parent? How is this content explained?
+QUESTION 67. Does the parent program finish? And the child? Why?
+QUESTION 68. If we wanted the reader to be able to send a message to the writer, could we use the same named pipe or should we create another one? Reason your answer.
+
+Session 9: File system
+
+QUESTION 69. Answer the following questions in the file "entrega.txt"
+* Which one/s of the previous commands have given an error when trying to execute it/them? Explain why.
+* Explain the result of executing the command "stat" using as a parameter each one of the symbolic names that you have created previously.
+* What would be the contents of the files D, E, F and G? Comment the differences that you observe when using the commands "more" or "cat" to see the content of the file and the result of using the command "readlink".
+* Write in a paper the accesses that are realized when the files "$HOME/A/F", "$HOME/A/E" and "$HOME/A/G" are accessed. Now compare them with the result obtained when you execute the command "namei" with each one of the previous files. If you execute "readlink $HOME/A/F", are the same accesses done? What is the influence of the fact that one of them is with the absolute path and the other with the relative path?
+* Create a soft link of a file to itself (a file that didn't exist previously). Comment the result of looking its content using the command "cat". Observe how the system controls the existence of cycles in the file system. Execute the command "namei" and comment its result.
+
+Session 10: Concurrency and Parallelism
+
+QUESTION 72. What differences do you observe in the execution time of each program? What is the cause of these differences?
+QUESTION 73. In the program fork_compartMem.c, which values does the child process see at the beginning of its execution in the variables a and pidPadre? And at the end? Which values does the parent process see at the end of its execution? How do you explain this behaviour?
+QUESTION 74. In the program thread_compartMem.c, which values does the child process see at the beginning of its execution in the variables a and pidPadre? And at the end? Which values does the parent process see at the end of its execution? How do you explain this behaviour?
+QUESTION 75. In the file thread_compartMem2.c there's a compilation error . What's the cause of this error?
+QUESTION 76. In the line marked as "PUNTO 1", in which memory address is the value 1111 being saved? Which variable occupies that memory address? What messages do the parent and the pthread show? Would it be possible for one pthread to access local variables of another pthread? Under which conditions?
+QUESTION 77. Execute again the program but now with "espera" parameter set to 0.What messages are the parent and pthread showing now? What causes this difference in behaviour? 
+QUESTION 78. Compile the code and execute it 10 times.Does the main process print always the same value? Why?
+QUESTION 79.  Write down in the to_deliver.txt file which code lines form the critical region that causes the race condition.
+
